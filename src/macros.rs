@@ -55,8 +55,8 @@ macro_rules! tuple_struct_impl {
     };
 }
 
-pub(crate) use tuple_struct_impl_read;
-pub(crate) use tuple_struct_impl_write;
-pub(crate) use tuple_struct_impl_inner;
 pub(crate) use tuple_struct_all;
 pub(crate) use tuple_struct_impl;
+pub(crate) use tuple_struct_impl_inner;
+pub(crate) use tuple_struct_impl_read;
+pub(crate) use tuple_struct_impl_write;

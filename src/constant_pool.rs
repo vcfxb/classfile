@@ -1,14 +1,14 @@
 //! Types and implementation relating to the constant pool.
 
-use std::io::{self, Read, Write};
 use cp_info_tag::Tag;
+use std::io::{self, Read, Write};
 
 pub mod cp_info_tag;
 
 #[derive(Debug)]
 pub struct ConstPoolInfo {
     pub tag: Tag,
-    pub info: Vec<u8>
+    pub info: Vec<u8>,
 }
 
 impl ConstPoolInfo {
